@@ -1,0 +1,7 @@
+matplotlib==3.8.4
+pandas==2.2.2
+scikit_learn==1.4.2
+pyarrow==16.0.0
+fastparquet==2024.2.0
+sqlalchemy==2.0.30
+openpyxl==3.1.0

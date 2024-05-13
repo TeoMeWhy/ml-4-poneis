@@ -1,0 +1,4 @@
+*.csv
+*.db
+*.xlsx
+*.parquet
