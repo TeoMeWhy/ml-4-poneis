@@ -50,6 +50,7 @@ arvore.fit(df[["cerveja"]], df["nota"])
 
 y_estimado_arvore = arvore.predict(X)
 
+plt.figure(dpi=500)
 plt.plot(df["cerveja"], df["nota"], 'o')
 plt.plot(X, y_estimado, '-')
 plt.plot(X, y_estimado_arvore, '-')
@@ -59,6 +60,6 @@ plt.ylim(0, 11)
 plt.xlim(0, 11)
 plt.xlabel("Cerveja")
 plt.ylabel("Nota")
-plt.legend(["Pontos", "Regressão Linear", "Árvore"])
+plt.legend(["Observações", "Regressão Linear", "Árvore de Decisão"])
 plt.show()
 # %%
